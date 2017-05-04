@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Project Altis.exe" version="1.0.0.1" publicKeyToken="57e13754f589186f" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="pieicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Project Altis" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Project Altis.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="483840">
+      <assemblyIdentity name="Newtonsoft.Json" version="9.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SlbvNS+ErRnBtEhsfJ5k/vmmfEZMYuUbq6unnNLYlVE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Project Altis.exe" size="1833440">
+      <assemblyIdentity name="Project Altis" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LKSvBlWC9mV+6DcS0K5zlgE0WrLGTpF+KQ6L4lkKMEA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="pieicon.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9lPLlHwOQjnkFN8QyGc4h0OiZpn8rFE5NR2UVjA6x0k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Project Altis.exe.config" size="1652">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wYQogqsnS5knJOpFDIbYiN1P9YNpQr1v6Zo+onJg9Fg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-34LVNJB\hunte" issuerKeyHash="6c23cb0415bd008e1ada49b29629dc72e8bfcd52" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>b9pbdytB/R94ZFg1kW/WVoPhg2bdkg2YJw/y2MgYC3E=</DigestValue></Reference></SignedInfo><SignatureValue>D9DGwNEHngOdxW4RbRuv5CAW6H9zey34vO1UAWrQXMao8emGEbfStFtRWdaxmqCPj6Ui869G9tQHpSCxKWIBpXaZre9FuFX1n+FXXjdd/SX5gWN9lJ44/vt6wO2JM2iLXNCJ30A9MY4E8h1W5/q0O3JBjMZx5tiW+v4wyH1S8/Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rewss5AmNhWdQ/zB1RpfokR8bkIbX9YNVcwbMnRYvCVss2HZHuvJFQX3Kv3Qz8kd1MvShvVPTybiWBTYuyDPyDC8KR41lgIRE+rP0eu6thZ/IDVUp+WOsV3TPX7GGeKaMp9J4IFZZywjZE09yY+HhMILEotQScgMYfNLL1TN7n0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="710b18c8d8f20f27980d92dd6683e18356d66f91355864781ffd412b775bda6f" Description="" Url=""><as:assemblyIdentity name="Project Altis.exe" version="1.0.0.1" publicKeyToken="57e13754f589186f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-34LVNJB\hunte</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gHZiLMYtugqc3Khskn8DNB6Hb2ngrTu5GHP4VmkFbd0=</DigestValue></Reference></SignedInfo><SignatureValue>a7hozTM+zKCbS71EX1T2vBw5hzYTz4j+WKghrZIB+Ef3Qgsy7LmX9N5AEpyxJ5tKIv2SjjhCfVUmayNjyvjZyC+c9acMxWZbqvLiiS7fu+3lYevj92VlfBNNMWc9hUmRmNS1unn6rI9WQrND6tdGyz+oigoAvIBP060UzYKwzRQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rewss5AmNhWdQ/zB1RpfokR8bkIbX9YNVcwbMnRYvCVss2HZHuvJFQX3Kv3Qz8kd1MvShvVPTybiWBTYuyDPyDC8KR41lgIRE+rP0eu6thZ/IDVUp+WOsV3TPX7GGeKaMp9J4IFZZywjZE09yY+HhMILEotQScgMYfNLL1TN7n0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQWR7cV7GnKoFO9q/WLfmc7zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMANABMAFYATgBKAEIAXABoAHUAbgB0AGUwHhcNMTcwNTA0MTM1MTI0WhcNMTgwNTA0MTk1MTI0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMANABMAFYATgBKAEIAXABoAHUAbgB0AGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK3sLLOQJjYVnUP8wdUaX6JEfG5CG1/WDVXMGzJ0WLwlbLNh2R7ryRUF9yr90M/JHdTL0ob1T08m4lgU2Lsgz8gwvCkeNZYCERPqz9HrurYWfyA1VKfljrFd0z1+xhnimjKfSeCBWWcsI2RNPcmPh4TCCxKLUEnIDGHzSy9Uze59AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAPGWHKtTTlPAqfo98yFEiCia3saMxm3vrRMryHAoZ4K2oTilsAMFGLWpdtGjGZ24bFceLcqYtZI+rHF2ggQ4mORu7dwnI+wBHFzp3S1AeKeh2C7OIJWAoVhWIgPT2j1IZ3tOrSC4+O1ykgxwyPdnOJ2nmGmECV1T+VxxWjs3rQmE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
