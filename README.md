@@ -2,4 +2,4 @@
 
 This repo is the host for squirrel releases for the altis launcher. 
 
-## v1.2.1
+## v1.2.4
