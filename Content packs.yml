@@ -1,0 +1,30 @@
+---
+data:
+- name: Content Pack samle 1
+  author: Judge2020
+  description: sp00ky scary skeletons
+  versions:
+  - version: '1'
+    displayversion: v1.0.0
+    updates: Initial release woooooo
+    size: 100 MB
+    download: https://example.com
+  - version: '2'
+    displayversion: v1.0.1
+    updates: Fixed ddock texture
+    size: 102 MB
+    download: https://example.com/2
+- name: Content Pack samle 2
+  author: Boyo Darwin
+  description: make toontown dumb again
+  versions:
+  - version: '1'
+    displayversion: v1.0.0
+    updates: made this content pack for no reason xd
+    size: 25 MB
+    download: https://example2.com
+  - version: '2'
+    displayversion: v1.1.0
+    updates: added ddock xd
+    size: 40 MB
+    download: https://example2.com/3
