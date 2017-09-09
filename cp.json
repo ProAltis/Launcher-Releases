@@ -5,6 +5,10 @@
       "name": "Content Pack samle 1",
       "author": "Judge2020",
       "description": "sp00ky scary skeletons",
+      "screenshots": [
+        "https://i.imgur.com/rOkAa7C.jpg",
+        "https://i.imgur.com/GM7veaH.gif"
+      ],
       "versions": [
         {
           "version": "1",
@@ -26,6 +30,10 @@
       "name": "Content Pack samle 2",
       "author": "Boyo Darwin",
       "description": "make toontown dumb again",
+      "screenshots": [
+        "https://i.imgur.com/pJ6kxAH.gif",
+        "https://i.imgur.com/GM7veaH.gif"
+      ],
       "versions": [
         {
           "version": "1",
